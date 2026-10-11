@@ -1,28 +1,28 @@
 class Oopsy < Formula
   desc "Undo destructive commands, for people and AI coding agents"
   homepage "https://sohan-bhat.github.io/oopsy/"
-  version "0.8.0"
+  version "0.8.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.0/oopsy_0.8.0_darwin_arm64.tar.gz"
-      sha256 "a656b9b31644a3817e4be55930df0f265cca69f39e76014e1b57cab5f5e1abab"
+      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.1/oopsy_0.8.1_darwin_arm64.tar.gz"
+      sha256 "b4a2bfdada5ce5c04f95fa16c0f591e45da1bdebd30223bb054c27849f1806a8"
     end
     on_intel do
-      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.0/oopsy_0.8.0_darwin_amd64.tar.gz"
-      sha256 "6bd88193267ac9fcf87ab2db50e5be4c8a5c95f790ca50ccd68da1e66dfecfe4"
+      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.1/oopsy_0.8.1_darwin_amd64.tar.gz"
+      sha256 "6218e001a8280823a8562397cebb0323201022ebd5cd071900299cf7d0fc0e8d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.0/oopsy_0.8.0_linux_arm64.tar.gz"
-      sha256 "227a25037ed70958a71bb2661760fbcd1cc262c6749581c4edb1e0bf7aa8d0e4"
+      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.1/oopsy_0.8.1_linux_arm64.tar.gz"
+      sha256 "6d14fbeba33a0bd372903c70aecb65c848ff45aa03ad985d06e31754c884d537"
     end
     on_intel do
-      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.0/oopsy_0.8.0_linux_amd64.tar.gz"
-      sha256 "d8fc4366f944e8fad135869e61962b6e63c938f3dd3db1a5ced941fbd3bb1505"
+      url "https://github.com/sohan-bhat/oopsy/releases/download/v0.8.1/oopsy_0.8.1_linux_amd64.tar.gz"
+      sha256 "c36ccfcf2357cdd084ef43577f54202f45297d68e132e93c1f9ae40fa3383ac1"
     end
   end
 
